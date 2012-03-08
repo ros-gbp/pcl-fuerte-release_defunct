@@ -1,0 +1,26 @@
+Catkin-ProjectName: pcl
+Version: 1.5.1
+
+Depends:
+    eigen,
+    flann,
+    boost,
+    cmake,
+    common_msgs,
+    libvtk,
+    libqhull,
+    libusb,
+    python-sphinx
+
+Description: The Point Cloud Library (or PCL) for point cloud processing - development
+    The PCL framework contains numerous state-of-the art algorithms including
+    filtering, feature estimation, surface reconstruction, registration, model
+    fitting and segmentation.
+
+Author: Radu Rusu <rusu@willowgarage.com>
+Maintainer: Michael Dixon <mdixon@willowgarage.com>
+Homepage: http://pointclouds.org/
+
+Catkin-CopyrightType:  willowgarage
+Catkin-DebRulesType: +catkin/rules.em
+
