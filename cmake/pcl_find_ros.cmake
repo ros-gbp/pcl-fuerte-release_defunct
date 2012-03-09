@@ -22,9 +22,6 @@ macro(get_ros_inc_path _dest _pkg)
     endif()
 endmacro(get_ros_inc_path)
 
-#todo: do we really need the next two lines? 
-set(ROS_ROOT $ENV{ROS_ROOT})
-if(ROS_ROOT)
     option(USE_ROS "Integrate with ROS rather than using native files" OFF)
     message(STATUS "Found ROS; USE_ROS is ${USE_ROS}")
     if(USE_ROS)
@@ -64,5 +61,4 @@ if(ROS_ROOT)
         SET(CMAKE_INSTALL_RPATH_USE_LINK_PATH TRUE)
 
     endif(USE_ROS)
-endif(ROS_ROOT)
 
