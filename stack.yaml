@@ -1,5 +1,5 @@
 Catkin-ProjectName: pcl
-Version: 1.5.1
+Version: 1.5.2
 
 Depends:
     eigen,
@@ -9,8 +9,9 @@ Depends:
     common_msgs,
     libvtk,
     libqhull,
-    libusb,
-    python-sphinx
+    libusb-1.0-dev,
+    python-sphinx,
+    libmysqlclient-dev
 
 Description: The Point Cloud Library (or PCL) for point cloud processing - development
     The PCL framework contains numerous state-of-the art algorithms including
