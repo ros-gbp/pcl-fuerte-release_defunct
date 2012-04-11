@@ -2,12 +2,12 @@ Source: ros-fuerte-pcl
 Section: misc
 Priority: extra
 Maintainer: Michael Dixon <mdixon@willowgarage.com>
-Build-Depends: debhelper (>= 7.0.50~), python-sphinx,libusb-1.0-0-dev,cmake,libboost1.46-all-dev,libmysqlclient-dev,ros-fuerte-common-msgs,libqhull-dev,libvtk5-dev,libeigen3-dev,ros-fuerte-flann
+Build-Depends: debhelper (>= 7.0.50~), python-sphinx,libusb-1.0-0-dev,cmake,libboost-all-dev,libmysqlclient-dev,ros-fuerte-common-msgs,libqhull-dev,libvtk5-dev,libeigen3-dev,ros-fuerte-flann
 Homepage: http://pointclouds.org/
 Standards-Version: 3.9.2
 
 Package: ros-fuerte-pcl
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, python-sphinx,libusb-1.0-0-dev,cmake,libboost1.46-all-dev,libmysqlclient-dev,ros-fuerte-common-msgs,libqhull-dev,libvtk5-dev,libeigen3-dev,ros-fuerte-flann
+Depends: ${shlibs:Depends}, ${misc:Depends}, python-sphinx,libusb-1.0-0-dev,cmake,libboost-all-dev,libmysqlclient-dev,ros-fuerte-common-msgs,libqhull-dev,libvtk5-dev,libeigen3-dev,ros-fuerte-flann
 Description: The Point Cloud Library (or PCL) for point cloud processing - development The PCL framework contains numerous state-of-the art algorithms including filtering, feature estimation, surface reconstruction, registration, model fitting and segmentation.
 
