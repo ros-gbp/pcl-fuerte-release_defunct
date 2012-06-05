@@ -4,7 +4,7 @@
   <description>The Point Cloud Library (or PCL) for point cloud processing - development
     The PCL framework contains numerous state-of-the art algorithms including
     filtering, feature estimation, surface reconstruction, registration, model
-    fitting and segmentation.</description
+    fitting and segmentation.</description>
   <author email="rusu@willowgarage.com">Radu Rusu</author>
   <maintainer email="mdixon@willowgarage.com">Michael Dixon</maintainer>
   <license>BSD</license>
