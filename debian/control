@@ -10,4 +10,7 @@ Package: ros-fuerte-pcl
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, python-sphinx,libusb-1.0-0-dev,cmake,libboost-all-dev,libmysqlclient-dev,ros-fuerte-common-msgs,libqhull-dev,libvtk5-dev,libeigen3-dev,ros-fuerte-flann
 Description: The Point Cloud Library (or PCL) for point cloud processing - development The PCL framework contains numerous state-of-the art algorithms including filtering, feature estimation, surface reconstruction, registration, model fitting and segmentation.
+ .
+ This stack contains the packages:
+ * ros: PCL - Point Cloud Library: a comprehensive open source library for n-D Point Clouds and 3D geometry processing. The library contains numerous state-of-the art algorithms for: filtering, feature estimation, surface reconstruction, registration, model fitting and segmentation, etc.
 
