@@ -33,3 +33,4 @@
   <depends>python-sphinx</depends>
   <depends>libmysqlclient-dev</depends>
 </stack>
+
