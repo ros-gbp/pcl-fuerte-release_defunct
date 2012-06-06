@@ -36,4 +36,6 @@
   <depends>python-sphinx</depends>
   <depends>roscpp_core</depends>
   <depends>std_msgs</depends>
+
+  <build_type file="bloom/rules.em">custom</build_type>
 </stack>
