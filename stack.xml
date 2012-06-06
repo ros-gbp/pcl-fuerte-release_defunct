@@ -12,6 +12,7 @@
   <url>http://pointclouds.org/</url>
 
   <build_depends>boost</build_depends>
+  <build_depends>catkin</build_depends>
   <build_depends>cmake</build_depends>
   <build_depends>common_msgs</build_depends>
   <build_depends>eigen</build_depends>
