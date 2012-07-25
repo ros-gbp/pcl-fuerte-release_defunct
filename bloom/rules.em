@@ -9,7 +9,7 @@
 # Uncomment this to turn on verbose mode.
 export DH_VERBOSE=1
 export DH_OPTIONS=-v
-export CMAKE_PREFIX_PATH="/opt/ros/fuerte"
+export CMAKE_PREFIX_PATH="@(INSTALL_PREFIX)"
 CMAKE_FLAGS = \
 	-DCMAKE_BUILD_TYPE=Release \
 	-DUSE_ROS=ON
@@ -18,8 +18,8 @@ CMAKE_FLAGS = \
 
 override_dh_auto_configure:
 	dh_auto_configure -Scmake -- \
-		-DCMAKE_INSTALL_PREFIX="/opt/ros/fuerte" \
-		-DCMAKE_PREFIX_PATH="/opt/ros/fuerte" \
+		-DCMAKE_INSTALL_PREFIX="@(INSTALL_PREFIX)" \
+		-DCMAKE_PREFIX_PATH="@(INSTALL_PREFIX)" \
 		$(CMAKE_FLAGS)
 
 override_dh_auto_test:
