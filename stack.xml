@@ -1,6 +1,6 @@
 <stack>
   <name>pcl</name>
-  <version>1.5.2</version>
+  <version>1.6.0</version>
   <description>The Point Cloud Library (or PCL) for point cloud processing - development
     The PCL framework contains numerous state-of-the art algorithms including
     filtering, feature estimation, surface reconstruction, registration, model
